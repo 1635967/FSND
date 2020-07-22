@@ -137,9 +137,9 @@ To start and run the local development server,
 
 3. Run the development server:
   ```
-  $ export FLASK_APP=myapp
+  $ export FLASK_APP=myapp (set FLASK_APP=app.py)
   $ export FLASK_ENV=development # enables debug mode
-  $ python3 app.py
+  $ python3 app.py (flask run)
   ```
 
 4. Navigate to Home page [http://localhost:5000](http://localhost:5000)
